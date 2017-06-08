@@ -1,2 +1,8 @@
+#server properties
 server:
-  port: 8085
+  port: 8086
+
+eventPublisherConfiguration:
+  eventRegistratorUrl: http://localhost:8080
+  irisUrl: http://myd-vm25739.hpeswlab.net:8080
+  irisIndex: alm@DEMO@demo@642e6eac-23ae-41e9-973d-81d900796606
